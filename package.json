@@ -1,0 +1,35 @@
+{
+  "name": "tempus",
+  "version": "0.0.0",
+  "description": "Talks to temp.us",
+  "main": "lib/tempus.js",
+  "scripts": {
+    "test": "cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/t3mpus/tempus-cli"
+  },
+  "keywords": [
+    "Time",
+    "tracking",
+    "tempus",
+    "git",
+    "master",
+    "of",
+    "time",
+    "father",
+    "time"
+  ],
+  "author": "Will S. Laurance",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "~1.0.5"
+  },
+  "devDependencies": {
+    "colors": "~0.6.0-1",
+    "should": "~1.2.1",
+    "coffee-script": "~1.4.0",
+    "mocha": "~1.6.0"
+  }
+}
