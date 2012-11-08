@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Talks to temp.us",
   "main": "lib/tempus.js",
+  "bin": {
+    "tempus": "./bin/tempus"
+  },
   "scripts": {
     "test": "cake test"
   },
@@ -24,7 +27,8 @@
   "author": "Will S. Laurance",
   "license": "MIT",
   "dependencies": {
-    "commander": "~1.0.5"
+    "commander": "~1.0.5",
+    "request": "~2.11.4"
   },
   "devDependencies": {
     "colors": "~0.6.0-1",
